@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<GridPane prefHeight="400.0" prefWidth="600.0" stylesheets="@../css/styles.css" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="dmitr.bobutils.controller.MenuController" vgap="20" hgap="20">
+<padding>
+    <Insets bottom="8.0" left="8.0" right="8.0" top="8.0" />
+</padding>
+<columnConstraints>
+    <ColumnConstraints />
+    <ColumnConstraints percentWidth="10" />
+    <ColumnConstraints percentWidth="80" />
+    <ColumnConstraints percentWidth="10" />
+</columnConstraints>
+<rowConstraints>
+    <RowConstraints />
+    <RowConstraints percentHeight="20" />
+    <RowConstraints percentHeight="30"/>
+    <RowConstraints percentHeight="30" />
+    <RowConstraints percentHeight="20" />
+</rowConstraints>
+    <Button fx:id="translatorButton" mnemonicParsing="false" text="Translator" GridPane.rowIndex="2" GridPane.columnIndex="2" maxWidth="Infinity" maxHeight="Infinity" />
+    <Button fx:id="fragmentsButton" mnemonicParsing="false" text="Fragments" GridPane.rowIndex="3" GridPane.columnIndex="2" maxWidth="Infinity" maxHeight="Infinity" />
+</GridPane>

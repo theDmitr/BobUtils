@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<GridPane hgap="5" prefHeight="400.0" prefWidth="600.0" stylesheets="@../css/styles.css" vgap="5"
+          xmlns="http://javafx.com/javafx/17.0.2-ea"
+          xmlns:fx="http://javafx.com/fxml/1" fx:controller="dmitr.bobutils.controller.FragmentsController" alignment="CENTER">
+    <padding>
+        <Insets bottom="8.0" left="8.0" right="8.0" top="8.0" />
+    </padding>
+    <rowConstraints>
+        <RowConstraints />
+        <RowConstraints />
+        <RowConstraints />
+        <RowConstraints />
+        <RowConstraints />
+        <RowConstraints />
+        <RowConstraints />
+        <RowConstraints />
+    </rowConstraints>
+    <columnConstraints>
+        <ColumnConstraints />
+        <ColumnConstraints percentWidth="50.0" />
+        <ColumnConstraints percentWidth="50.0" />
+    </columnConstraints>
+    <Button fx:id="menuButton" maxWidth="Infinity" mnemonicParsing="false" text="Menu" GridPane.columnIndex="1" GridPane.columnSpan="2" GridPane.halignment="CENTER" GridPane.rowIndex="1" maxHeight="Infinity" />
+    <TextField fx:id="insertFragmentsGroupField" maxWidth="Infinity" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="CENTER" maxHeight="Infinity" />
+    <Button fx:id="insertFragmentsGroupButton" maxWidth="Infinity" mnemonicParsing="false" text="Insert Group" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.hgrow="ALWAYS" GridPane.rowIndex="2" GridPane.valignment="CENTER" maxHeight="Infinity" />
+    <Label text="FragmentsGroups: " GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="3" maxHeight="Infinity" />
+    <ComboBox fx:id="fragmentsGroupsComboBox" maxWidth="Infinity" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="3" maxHeight="Infinity" />
+    <Button fx:id="removeFragmentsGroupButton" maxWidth="Infinity" mnemonicParsing="false" text="Remove Group" GridPane.columnIndex="1" GridPane.columnSpan="2" GridPane.halignment="CENTER" GridPane.rowIndex="4" maxHeight="Infinity" />
+    <ListView fx:id="fragmentsListView" maxWidth="Infinity" GridPane.columnIndex="1" GridPane.columnSpan="2" GridPane.halignment="CENTER" GridPane.rowIndex="5" maxHeight="Infinity" />
+    <TextField fx:id="insertFragmentField" maxWidth="Infinity" GridPane.columnIndex="1" GridPane.columnSpan="2" GridPane.halignment="CENTER" GridPane.rowIndex="6" maxHeight="Infinity" />
+    <Button fx:id="insertFragmentButton" maxWidth="Infinity" mnemonicParsing="false" text="Insert" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="7" maxHeight="Infinity" />
+    <Button fx:id="removeFragmentButton" maxWidth="Infinity" mnemonicParsing="false" text="Remove" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="7" maxHeight="Infinity" />
+</GridPane>
